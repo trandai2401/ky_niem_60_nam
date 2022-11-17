@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.header {
+    margin: 0px auto;
+    font-family: 'Anton', sans-serif;
+}
+
+.header img {
+    display: block;
+    width: 98%;
+    margin: 10px auto;
+}
+
+.text-header {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+}
+
+.text-header p {
+
+    font-size: 60px;
+    font-weight: 800;
+    color: #202c2d;
+    text-shadow:
+        0 1px #808d93,
+        -1px 0 #cdd2d5,
+        -1px 2px #808d93,
+        -2px 1px #cdd2d5,
+        -2px 3px #808d93,
+        -3px 2px #cdd2d5,
+        -3px 4px #808d93,
+        -4px 3px #cdd2d5,
+        -4px 5px #808d93,
+        -5px 4px #cdd2d5,
+        -5px 6px #808d93,
+        -6px 5px #cdd2d5,
+        -6px 7px #808d93,
+        -7px 6px #cdd2d5,
+        -7px 8px #808d93,
+        -8px 7px #cdd2d5;
+}
+
+.text-header span {
+    font-size: 30px
+}
+
+.card-content {
+    width: 70%;
+    height: 140px;
+    background: #f9caca;
+    border-radius: 10px;
+    text-align: center;
+    display: table;
+    position: absolute;
+    top: 500px;
+    left: 15%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-content p {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    text-shadow:
+        1px 0px 1px #ccc, 0px 1px 1px #eee,
+        2px 1px 1px #ccc, 1px 2px 1px #eee,
+        3px 2px 1px #ccc, 2px 3px 1px #eee,
+        4px 3px 1px #ccc, 3px 4px 1px #eee,
+        5px 4px 1px #ccc, 4px 5px 1px #eee,
+        6px 5px 1px #ccc, 5px 6px 1px #eee,
+        7px 6px 1px #ccc;
+
+}

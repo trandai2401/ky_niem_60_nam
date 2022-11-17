@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sono&display=swap");
+
+.cosohatang {
+  position: relative;
+  top: 100px;
+  width: 100%;
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;
+  background: #ffcaca;
+  padding: 50px 0px;
+}
+
+.cosohatang .title {
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-left: 60px;
+}
+
+.cosohatang .content {
+  display: flex;
+  margin-left: 60px;
+}
+
+.cosohatang .content .left {
+  width: 50%;
+}
+
+.cosohatang .content .left .diachi {
+  width: 70%;
+  height: 80px;
+  background: #ff9768;
+  border-radius: 50px;
+  font-family: "Sono", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cosohatang .content .left .text {
+  margin-top: 20px;
+  font-family: "Sono", sans-serif;
+  font-size: 18px;
+  line-height: 2;
+  width: 80%;
+}
+
+.cosohatang .content .right {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.cosohatang .content .right img {
+  width: 250px;
+  margin: 10px;
+}
