@@ -6,6 +6,7 @@ import su_menh from "./su_mang.png";
 import doi_ten_NVT from "./doi_ten_NVT.png";
 import ute from "./ute.png";
 import cs2 from "./cs2.png";
+import cao_dang_cn from "./cao_dang_cn.png";
 export default function Timeline() {
   return (
     <>
@@ -93,7 +94,7 @@ export default function Timeline() {
               Nẵng được thành lập trên cơ sở sáp nhập các trường trên địa bàn Đà
               Nẵng, trong đó có trường Công nhân Kỹ thuật Nguyễn Văn Trỗi. Lấy
               tên là: “ Trường Cao Đẳng Công Nghệ ”<br />
-              <img src={doi_ten_NVT} width="350px" />
+              <img src={cao_dang_cn} width="350px" />
               <br />
               <br />
               Là một trong năm trường thành viên đầu tiên đem lại cho trường vị
